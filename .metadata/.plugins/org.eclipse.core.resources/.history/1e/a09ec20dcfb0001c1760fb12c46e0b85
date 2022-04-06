@@ -1,0 +1,17 @@
+package day5.com.capg;
+
+import java.lang.reflect.Array;
+
+public class Mydelarr {
+
+	public static void main(String[] args) {
+		int array[]= {4,5,7,8,9};
+		
+		for(int i=0;i<array.length-1;i++)
+		{
+			System.out.println("the out put is "+array.length);
+		}
+
+	}
+
+}

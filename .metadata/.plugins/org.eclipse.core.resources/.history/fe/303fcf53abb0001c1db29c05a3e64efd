@@ -1,0 +1,28 @@
+package day4;
+
+interface query {
+	interface sj {
+		public void sagar();
+	}
+
+	class Sagar implements sj {
+		public void sagar() {
+			System.out.println(" sj");
+		}
+	}
+
+	class  implements  {
+		public void kumar() {
+			System.out.println("sagar");
+		}
+	}
+}
+
+public class MyInterface {
+	public static void main(String[] args) {
+		m n = new sagar();
+		n.sagar();
+
+	}
+
+}

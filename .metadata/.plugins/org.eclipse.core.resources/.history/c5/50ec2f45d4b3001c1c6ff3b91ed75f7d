@@ -1,0 +1,11 @@
+package com.capg.day7;
+import java.util.Hashtable;
+public class Mymap {
+	public static void main(String[] args) {
+		Hashtable<Integer,String>map=new Hashtable<Integer,String>();
+		map.put(101,"sj");
+		map.put(102,"SJ");
+		System.out.println(map.get(101));
+	}
+
+}

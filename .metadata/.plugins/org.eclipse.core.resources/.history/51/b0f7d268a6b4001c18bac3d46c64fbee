@@ -1,0 +1,30 @@
+package com.capg.day8;
+@FunctionalInterface
+interface modLambda {
+	
+public void print(int a);
+}
+
+interface even {
+    public void evennum(int a);
+}
+
+
+
+
+public class Myevenlamb {
+	public static void main(String[] args) {
+		int a=12;
+		
+		
+		Lambda result = ()-> System.out.println("example lambda");
+        result.print();
+       modInterface modInterface = (int a) -> {
+           if ( a%2==0)
+            System.out.println("the given num is even "+result);
+           
+            System.out.println("the given num is odd  "+result);
+	};
+	}
+	
+}

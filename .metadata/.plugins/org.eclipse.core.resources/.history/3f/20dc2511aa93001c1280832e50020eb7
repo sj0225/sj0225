@@ -1,0 +1,11 @@
+package manoj;
+
+public class sum {
+
+	public static void main(String[] args) {
+		int a=24;
+		String res=a%2==0?"positive":"negative";
+		System.out.println(res);
+	}
+
+}

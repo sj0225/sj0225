@@ -1,0 +1,39 @@
+package day4;
+class  person{
+	public void Driving1()
+{
+		System.out.println("Drive the car");
+		}
+	public void Driving2(int bike ) {
+		System.out.println("driving the bike");
+	}
+	public void Driving3(String Truk) {
+		System.out.println("Drive the truk");
+	}
+
+
+}
+
+  class Driving extends Person {​​​​​​​​
+    
+    public void Driving() {​​​​​​​​
+        System.out.println("Driving");
+​​​​​​​​
+}
+​
+}
+​​​​​​
+
+public class Mypoly {
+	public static void main(String[] args) {
+		person person=new person();
+		person.Driving1();
+		
+		person.Driving3("Truk");
+		
+
+		
+	}
+
+}
+}

@@ -1,0 +1,43 @@
+package com.capg.day7;
+import java.util.Hashtable;
+import java.util.Set;
+import java.util.HashMap;
+import java.util.HashSet;
+public class Mybag {
+	public String toString() {
+		String bagPrice=null;
+		return "bag[id="+id+",bagName="+bagName+",bagPrice="+bagPrice+"]";
+	}
+   int id;
+   String bagName;
+   int Price;
+   public Mybag(int id,String bagName,int Price) {
+	   this.id=id;
+	   this.bagName = bagName;
+	   this.Price = Price;
+	   
+   }
+   
+   public String getbagName() {
+	   return bagName;
+   }
+   public void setbagName(String bagName) {
+	   this.bagName=bagName;
+   }
+   public int getPrice() {
+	   return Price;
+   }
+   public void setbagName(int Price) {
+	   this.Price=Price;
+   }
+   public static void main(String[] args) {
+	HashMap<String,Mybag> map=new HashMap<String,Mybag>();
+	Mybag bag1=new Mybag(12,"hp",1000);
+	Mybag bag2=new Mybag(13,"Dell",1500);
+	bag.put("",null);
+	System.out.println(map);
+	
+	
+}
+   
+}

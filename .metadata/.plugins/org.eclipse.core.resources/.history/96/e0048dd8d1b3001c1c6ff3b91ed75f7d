@@ -1,0 +1,8 @@
+package com.capg.
+
+public class Mymap {
+	HashTable<Integer,String> map=new HashTable<Integer,String>();
+	
+	
+
+}

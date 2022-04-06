@@ -1,0 +1,11 @@
+package manoj;
+
+public class sum {
+
+	public static void main(String[] args) {
+		int a=21;
+		String res= a%2==0?(a>0?"positive even":"negative even"):(a<0?"positive odd":"negative odd");
+		System.out.println(res);
+	}
+
+}

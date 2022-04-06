@@ -1,0 +1,20 @@
+package day5.com.capg;
+
+public class Mystr {
+	public static void main(String[] args) {
+		String str="Sagar";
+		String str1=new String("sagar");
+		String str2="jadhav";
+		if(str.equalsIgnoreCase(str1))
+		{
+			System.out.println("true");
+		}
+		else
+		{
+			System.out.println("wrong");
+		}
+		
+	}
+		
+
+}

@@ -1,0 +1,23 @@
+package day4;
+ abstract class mobile{
+	 abstract public void calling();{
+	 
+	 System.out.println("calling");
+ }
+ abstract public void sms();{
+ 
+ System.out.println("sms");
+ 
+ class redmi implements Mobile{
+ 
+ }
+public class Mymobile {
+public static void main(String[] args) 
+	 {
+		redmi n10=new redmi();
+		n10.calling();
+		n10.sms();
+	}
+}
+ 
+ 
